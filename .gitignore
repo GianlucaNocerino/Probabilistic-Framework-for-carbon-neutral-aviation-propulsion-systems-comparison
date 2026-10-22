@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.vscode/
+
+# risultati rigenerabili dagli script
+execution/**/*.png
+*.npz
+propagation_checkpoints/
+_ckpt_model_form_*/
+sobol_cache/
+*.npy
+calibration_uncertainty_checkpoint.csv
